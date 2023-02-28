@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Form</title>
+</head>
+<body>
+    <form >
+        <fieldset>
+            <legend>User Details</legend> 
+                       <label for="salute">Salutation:<br></label>
+                      <select name="sal" id="salute">
+                           <option value="None">None</option>
+                           <option value="MR">MR.</option>
+                           <option value="MRS.">MRS.</option>
+                       </select>
+
+               <p>
+                   <label for="fname">First name:</label>
+                   <input type="text" id="fname">
+               </p>
+
+               <p>
+                   <label for="lname">Last name:</label>
+                   <input type="text" id="lname">
+               </p>
+
+
+               <p>
+                         <label for="Gender">Gender:</label>
+                         
+                         <input type="radio" id="male" name="mf">
+                         <label for="male">Male</label>
+
+                         <input type="radio" id="female" name="mf">
+                        <label for="female">Female</label>
+               </p>
+
+               <p>
+                    <label for="Email" >Email:</label>
+                    <input type="emai" id="Email" required>
+               </p>
+
+                 <p>
+                    <label for="date">Date of Birth</label>
+                    <input type="date" name="bdy" id="date">
+                 </p>
+
+                 <p>
+                     <label for="add">Address<br></label>
+                     <textarea name="address" id="add" cols="30" rows="10"></textarea>
+
+                 </p>
+
+                 <p>
+                    <input type="submit" value="Submit">
+                 </p>
+                
+
+
+               
+        </fieldset>
+    </form>
+</body>
+</html>
